@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetLogin</servlet-name>
+  	<display-name>GetLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.personal.grameenabank.controller.GetLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetLogin</servlet-name>
+  	<url-pattern>/GetLogin</url-pattern>
+  </servlet-mapping>
 </web-app>

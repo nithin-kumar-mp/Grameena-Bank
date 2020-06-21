@@ -32,7 +32,7 @@ public class UserBalance {
 	
 	@Override
 	public String toString() {
-		return "UserBalance [accno=" + accno + ", balance=" + balance + ", date=" + date + "]";
+		return "UserBalance [balance=" + balance + ", date=" + date + "]";
 	}
 	
 }
