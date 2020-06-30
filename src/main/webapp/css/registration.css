@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+.container-fluid {
+	padding-top: 10em;
+	background-color: black;
+}
+
+.form-div {
+	margin-top: 2em;
+	padding: 1em;
+	width: 95%;
+	background-color: #fff;
+	max-width: 900px;
+	margin: auto;
+	border: 1px solid blue;
+	border-radius: 20px;
+}
+
+.regFormLogo {
+	width: 130px;
+    height: 75px;
+    position: absolute;
+    top: 163px;
+}
+
+.form-div h2 {
+	text-align: center;
+	border-bottom: 2px solid #e6175f;
+	padding-bottom: 1.5rem;
+}
+
+.form-div table {
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+
+.form-div input[type="text"], .form-div select, 
+.form-div input[type="text"]:focus, .form-div select:focus,
+.form-div input[type="text"]:active, .form-div select:active {
+	width: 100%;
+	border: none;
+    border-bottom: 2px solid gray;
+    height: 35px;
+}
+
+.form-div input[type="text"]:focus, .form-div select:focus, .form-div textarea:focus,
+.form-div input[type="text"]:active, .form-div select:active, .form-div textarea:active {
+	border: none;
+}
+
+.form-div textarea {
+	width: 100%;
+	resize: none;
+	border: none;
+    border-bottom: 2px solid gray;
+}
+
+.error {
+	display:none;
+	font-size: 0.85rem;
+}
+
+.error, .required {
+	color: red;
+}
+
+.form-div table tr {
+	margin-bottom: 25px;
+}

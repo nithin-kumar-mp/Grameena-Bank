@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url("H://bg.jpg");
+	background-size: cover;
+}
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.box h2{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #000;
+	text-align: center;
+}
+.box .inputBox input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: gray;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 2px solid #e6175f;
+	outline: none;
+	background: transparent;
+}
+.box .inputBox label
+{
+	position: relative;
+	bottom: 55px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: gray;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+	top: -85px;
+	left: 0;
+	color: #e6175f;
+	font-size: 12px;
+}
+.box input[type = "submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #e6175f;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px
+}
+.eye {
+	position: absolute;
+	top: 200px;
+	margin-left: 300px;
+	color: gray;
+}
+#hide1{
+	display: none;
+}
+.forgotPwd {
+	font-size: small;
+    font-style: italic;
+    text-decoration: none;
+    color: gray;
+}
+.text-right {
+	text-align: right;
+    margin-top: -50px;
+    margin-bottom: 39px;
+}
